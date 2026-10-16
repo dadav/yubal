@@ -1599,7 +1599,7 @@ wheels = [
 
 [[package]]
 name = "yubal"
-version = "0.10.0"
+version = "0.11.2"
 source = { editable = "packages/yubal" }
 dependencies = [
     { name = "deno" },
@@ -1639,7 +1639,7 @@ provides-extras = ["cli"]
 
 [[package]]
 name = "yubal-api"
-version = "0.10.0"
+version = "0.11.2"
 source = { editable = "packages/api" }
 dependencies = [
     { name = "alembic" },
@@ -1668,7 +1668,7 @@ requires-dist = [
 
 [[package]]
 name = "yubal-workspace"
-version = "0.10.0"
+version = "0.11.2"
 source = { virtual = "." }
 
 [package.dev-dependencies]
