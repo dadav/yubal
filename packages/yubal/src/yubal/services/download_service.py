@@ -145,7 +145,7 @@ class YTDLPDownloader:
                 "http": lambda n: min(2**n, 30),  # Cap at 30s
                 "fragment": lambda n: min(2**n, 30),
             },
-            # Fetch the EJS challenge solver. See issue #29 https://github.com/guillevc/yubal/issues/29
+            # Fetch the EJS challenge solver. See issue #29 https://github.com/dadav/yubal/issues/29
             "remote_components": ["ejs:github"],
         }
 

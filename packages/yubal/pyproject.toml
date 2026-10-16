@@ -18,9 +18,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/guillevc/yubal"
-Repository = "https://github.com/guillevc/yubal"
-Issues = "https://github.com/guillevc/yubal/issues"
+Homepage = "https://github.com/dadav/yubal"
+Repository = "https://github.com/dadav/yubal"
+Issues = "https://github.com/dadav/yubal/issues"
 
 [project.optional-dependencies]
 cli = ["typer>=0.21.1", "rich>=13.0.0"]

@@ -12,7 +12,7 @@ yubal is under active solo development and evolving quickly. At this stage, I'm 
 
 Before reporting a bug:
 
-1. Check [existing issues](https://github.com/guillevc/yubal/issues) to avoid duplicates
+1. Check [existing issues](https://github.com/dadav/yubal/issues) to avoid duplicates
 2. Use the latest version to see if the issue has been fixed
 
 When reporting, please include:
@@ -22,15 +22,15 @@ When reporting, please include:
 - Expected vs actual behavior
 - Relevant logs or screenshots
 
-[Open a bug report](https://github.com/guillevc/yubal/issues/new)
+[Open a bug report](https://github.com/dadav/yubal/issues/new)
 
 ### Suggesting Features
 
-Feature ideas are welcome! Please [open an issue](https://github.com/guillevc/yubal/issues/new) to share your idea.
+Feature ideas are welcome! Please [open an issue](https://github.com/dadav/yubal/issues/new) to share your idea.
 
 ### Questions & Support
 
-For questions or troubleshooting, [open an issue](https://github.com/guillevc/yubal/issues/new).
+For questions or troubleshooting, [open an issue](https://github.com/dadav/yubal/issues/new).
 
 ### Pull Requests
 

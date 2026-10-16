@@ -16,11 +16,11 @@ export default defineConfig({
   manifest: {
     name: "yubal",
     description: "Send YouTube URLs to your yubal instance",
-    homepage_url: "https://yubal.guillevc.dev",
+    homepage_url: "https://yubal.dadav.dev",
     permissions: ["storage", "activeTab", "tabs"],
     browser_specific_settings: {
       gecko: {
-        id: "yubal@guillevc.xyz",
+        id: "yubal@dadav.xyz",
         // @ts-expect-error -- not yet in WXT's type definitions
         data_collection_permissions: {
           required: ["none"],

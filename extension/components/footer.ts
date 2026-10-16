@@ -50,7 +50,7 @@ export function Footer({ connected }: FooterProps) {
     },
     a(
       {
-        href: "https://yubal.guillevc.dev",
+        href: "https://yubal.dadav.dev",
         target: "_blank",
         class:
           "flex items-center gap-1.5 font-semibold text-xs text-mist-500 hover:text-mist-300 transition-colors [&>svg]:size-3.5",

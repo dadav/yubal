@@ -5,7 +5,7 @@ for add-on review purposes.
 
 ## Overview
 
-yubal is a companion browser extension for [yubal](https://github.com/guillevc/yubal),
+yubal is a companion browser extension for [yubal](https://github.com/dadav/yubal),
 a self-hosted YouTube Music library manager. The extension sends YouTube URLs
 from the browser to a user-configured yubal server instance.
 

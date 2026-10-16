@@ -6,12 +6,12 @@ Self-hosted YouTube Music downloader. Paste a link, get a tagged, organized libr
 
 Scheduled sync. Smart deduplication. Media server ready. Browser extension included.
 
-[![CI](https://github.com/guillevc/yubal/actions/workflows/ci.yaml/badge.svg)](https://github.com/guillevc/yubal/actions/workflows/ci.yaml)
-[![Release](https://img.shields.io/github/v/release/guillevc/yubal)](https://github.com/guillevc/yubal/releases)
+[![CI](https://github.com/dadav/yubal/actions/workflows/ci.yaml/badge.svg)](https://github.com/dadav/yubal/actions/workflows/ci.yaml)
+[![Release](https://img.shields.io/github/v/release/dadav/yubal)](https://github.com/dadav/yubal/releases)
 [![Firefox Add-on](https://img.shields.io/amo/v/yubal?label=firefox%20add-on&logo=firefox&logoColor=white&color=orange)](https://addons.mozilla.org/firefox/addon/yubal/)
-[![Chrome Extension](https://img.shields.io/github/v/release/guillevc/yubal?filter=ext-v*&label=chrome%20extension&logo=googlechrome&logoColor=white&color=orange)](https://github.com/guillevc/yubal/releases?q=🧩)
-[![Docker](https://img.shields.io/badge/ghcr.io-blue?logo=docker&logoColor=white)](https://ghcr.io/guillevc/yubal)
-[![codecov](https://codecov.io/gh/guillevc/yubal/branch/master/graph/badge.svg)](https://codecov.io/gh/guillevc/yubal)
+[![Chrome Extension](https://img.shields.io/github/v/release/dadav/yubal?filter=ext-v*&label=chrome%20extension&logo=googlechrome&logoColor=white&color=orange)](https://github.com/dadav/yubal/releases?q=🧩)
+[![Docker](https://img.shields.io/badge/ghcr.io-blue?logo=docker&logoColor=white)](https://ghcr.io/dadav/yubal)
+[![codecov](https://codecov.io/gh/dadav/yubal/branch/master/graph/badge.svg)](https://codecov.io/gh/dadav/yubal)
 
 <picture>
   <img src="docs/demo.gif" alt="yubal demo" width="75%">
@@ -78,16 +78,16 @@ When downloading a playlist, each track lives in its album folder; the M3U file 
 Download tracks and subscribe to playlists directly from YouTube and YouTube Music without leaving the page.
 
 <p>
-  <img src="https://raw.githubusercontent.com/guillevc/yubal/refs/heads/master/extension/docs/images/extension-track.png" alt="Track view" width="32%">
-  <img src="https://raw.githubusercontent.com/guillevc/yubal/refs/heads/master/extension/docs/images/extension-playlist.png" alt="Playlist view" width="32%">
-  <img src="https://raw.githubusercontent.com/guillevc/yubal/refs/heads/master/extension/docs/images/extension-settings.png" alt="Settings view" width="32%">
+  <img src="https://raw.githubusercontent.com/dadav/yubal/refs/heads/master/extension/docs/images/extension-track.png" alt="Track view" width="32%">
+  <img src="https://raw.githubusercontent.com/dadav/yubal/refs/heads/master/extension/docs/images/extension-playlist.png" alt="Playlist view" width="32%">
+  <img src="https://raw.githubusercontent.com/dadav/yubal/refs/heads/master/extension/docs/images/extension-settings.png" alt="Settings view" width="32%">
 </p>
 <p>
   <a href="https://addons.mozilla.org/addon/yubal/"><img src="https://img.shields.io/badge/Firefox-get_add--on-FF7139?logo=firefox&logoColor=white&style=for-the-badge" alt="Get the add-on for Firefox"></a>
-  <a href="https://github.com/guillevc/yubal/releases?q=🧩"><img src="https://img.shields.io/badge/Chrome-manual_install-4285F4?logo=googlechrome&logoColor=white&style=for-the-badge" alt="Chrome manual install"></a>
+  <a href="https://github.com/dadav/yubal/releases?q=🧩"><img src="https://img.shields.io/badge/Chrome-manual_install-4285F4?logo=googlechrome&logoColor=white&style=for-the-badge" alt="Chrome manual install"></a>
 </p>
 
-More info in the extension's [README.md](https://github.com/guillevc/yubal/blob/master/extension/README.md).
+More info in the extension's [README.md](https://github.com/dadav/yubal/blob/master/extension/README.md).
 
 ## 🚀 Quick Start
 
@@ -95,7 +95,7 @@ More info in the extension's [README.md](https://github.com/guillevc/yubal/blob/
 # compose.yaml
 services:
   yubal:
-    image: ghcr.io/guillevc/yubal:latest
+    image: ghcr.io/dadav/yubal:latest
     container_name: yubal
     ports:
       - 8000:8000
@@ -212,37 +212,37 @@ Need age-restricted content, private playlists, your **Liked Music** (`list=LM`)
 2. Place at `config/ytdlp/cookies.txt` or upload via the web UI
 
 > [!CAUTION]
-> Cookie usage may trigger stricter rate limiting and could put your account at risk. See [#3](https://github.com/guillevc/yubal/issues/3) and [yt-dlp wiki](https://github.com/yt-dlp/yt-dlp/wiki/Extractors#youtube).
+> Cookie usage may trigger stricter rate limiting and could put your account at risk. See [#3](https://github.com/dadav/yubal/issues/3) and [yt-dlp wiki](https://github.com/yt-dlp/yt-dlp/wiki/Extractors#youtube).
 
 ## 🗺️ Roadmap
 
 - [ ] Flat folder mode
 - [ ] Post-download webhooks
 - [ ] New music automatic discovery
-- [x] Browser extension ([v0.7.0](https://github.com/guillevc/yubal/releases/tag/v0.7.0))
-- [x] UGC tracks — remixes, unofficial content ([v0.5.0](https://github.com/guillevc/yubal/releases/tag/v0.5.0))
-- [x] Auto-sync playlists ([v0.4.0](https://github.com/guillevc/yubal/releases/tag/v0.4.0))
-- [x] Automatic lyrics (.lrc) ([v0.3.0](https://github.com/guillevc/yubal/releases/tag/v0.3.0))
-- [x] Single track downloads ([v0.3.0](https://github.com/guillevc/yubal/releases/tag/v0.3.0))
-- [x] Playlist support with M3U generation ([v0.2.0](https://github.com/guillevc/yubal/releases/tag/v0.2.0))
+- [x] Browser extension ([v0.7.0](https://github.com/dadav/yubal/releases/tag/v0.7.0))
+- [x] UGC tracks — remixes, unofficial content ([v0.5.0](https://github.com/dadav/yubal/releases/tag/v0.5.0))
+- [x] Auto-sync playlists ([v0.4.0](https://github.com/dadav/yubal/releases/tag/v0.4.0))
+- [x] Automatic lyrics (.lrc) ([v0.3.0](https://github.com/dadav/yubal/releases/tag/v0.3.0))
+- [x] Single track downloads ([v0.3.0](https://github.com/dadav/yubal/releases/tag/v0.3.0))
+- [x] Playlist support with M3U generation ([v0.2.0](https://github.com/dadav/yubal/releases/tag/v0.2.0))
 
 ## 💜 Support
 
 yubal is free, open-source, and built by one person. If it saves you time, consider supporting development:
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/guillevc) [![Sponsor](https://img.shields.io/badge/sponsor-GitHub-ea4aaa?logo=github)](https://github.com/sponsors/guillevc) [![BTC](https://img.shields.io/badge/BTC-on--chain_%26_Lightning-f7931a?logo=bitcoin)](https://guillevc.dev)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/dadav) [![Sponsor](https://img.shields.io/badge/sponsor-GitHub-ea4aaa?logo=github)](https://github.com/sponsors/dadav) [![BTC](https://img.shields.io/badge/BTC-on--chain_%26_Lightning-f7931a?logo=bitcoin)](https://dadav.dev)
 
 A ⭐ also helps others find the project!
 
 ## 📈 Star History
 
-[![Star History Chart](https://star-history.dera.page/svg?repos=guillevc/yubal&type=Date)](https://star-history.dera.page/#guillevc/yubal&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=dadav/yubal&type=Date)](https://star-history.dera.page/#dadav/yubal&Date)
 
 ## 🙏 Acknowledgments
 
 Built with [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ytmusicapi](https://github.com/sigma67/ytmusicapi).
 
-Thanks to everyone who's starred, shared, reported bugs, suggested features, or [supported the project](https://ko-fi.com/guillevc) 💝
+Thanks to everyone who's starred, shared, reported bugs, suggested features, or [supported the project](https://ko-fi.com/dadav) 💝
 
 ## License
 

@@ -7,17 +7,17 @@ export function Footer() {
         <p className="text-muted font-mono text-xs">
           Made by{" "}
           <a
-            href="https://github.com/guillevc"
+            href="https://github.com/dadav"
             target="_blank"
             rel="noopener noreferrer"
             className="group text-accent hover:text-foreground"
           >
             <GithubIcon className="-mt-px inline h-4 w-4" />{" "}
-            <span className="group-hover:underline">guillevc</span>
+            <span className="group-hover:underline">dadav</span>
           </a>
           {" · Support via "}
           <a
-            href="https://ko-fi.com/guillevc"
+            href="https://ko-fi.com/dadav"
             target="_blank"
             rel="noopener noreferrer"
             className="group text-accent hover:text-[#FF5E5B]"
@@ -47,7 +47,7 @@ export function Footer() {
           </a>
           {" · "}
           <a
-            href={`https://github.com/guillevc/yubal/${__IS_RELEASE__ ? `releases/tag/${__VERSION__}` : `commit/${__COMMIT_SHA__}`}`}
+            href={`https://github.com/dadav/yubal/${__IS_RELEASE__ ? `releases/tag/${__VERSION__}` : `commit/${__COMMIT_SHA__}`}`}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-foreground hover:underline"
