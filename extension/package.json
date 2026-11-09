@@ -19,19 +19,19 @@
     "postinstall": "wxt prepare"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "@tailwindcss/vite": "^4.2.1",
-    "@wxt-dev/auto-icons": "^1.1.1",
-    "eslint": "^10.0.2",
-    "eslint-config-prettier": "^10.1.8",
-    "globals": "^17.4.0",
-    "lucide-static": "^0.577.0",
-    "prettier": "^3.8.1",
-    "prettier-plugin-tailwindcss": "^0.7.2",
-    "tailwindcss": "^4.2.1",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.56.1",
-    "wxt": "^0.20.18"
+    "@eslint/js": "10.0.1",
+    "@tailwindcss/vite": "4.3.5",
+    "@wxt-dev/auto-icons": "1.1.2",
+    "eslint": "10.14.0",
+    "eslint-config-prettier": "10.1.8",
+    "globals": "17.14.0",
+    "lucide-static": "0.577.0",
+    "prettier": "3.9.10",
+    "prettier-plugin-tailwindcss": "0.7.4",
+    "tailwindcss": "4.3.5",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.72.1",
+    "wxt": "0.20.27"
   },
   "dependencies": {
     "vanjs-core": "^1.6.0"
