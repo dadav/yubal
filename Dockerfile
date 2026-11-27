@@ -1,5 +1,5 @@
 # Build frontend
-FROM oven/bun:1-alpine AS web-builder
+FROM oven/bun:1-alpine@sha256:da816670775f4c2b4e990b6b1847cf5540dcdc721a42033dd331ce7a88ba6a3b AS web-builder
 
 ARG VERSION=dev
 ARG COMMIT_SHA=dev
@@ -16,7 +16,7 @@ RUN VITE_VERSION=$VERSION \
     bun run build
 
 # Install Python dependencies
-FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim AS python-builder
+FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim@sha256:e5b65587bce7de595f299855d7385fe7fca39b8a74baa261ba1b7147afa78e58 AS python-builder
 
 # hadolint ignore=DL3008
 RUN apt-get update && apt-get install -y --no-install-recommends git \
@@ -28,7 +28,7 @@ COPY packages/ ./packages/
 RUN uv sync --package yubal-api --no-dev --frozen --no-cache --no-editable
 
 # Final runtime image
-FROM python:3.12-slim-bookworm
+FROM python:3.12-slim-bookworm@sha256:44cf1793efa7c7a476bb0f2cff81443f4a072c90c1cb127e2924933daa3e8c64
 
 ARG TARGETARCH
 ARG RSGAIN_VERSION=3.6
